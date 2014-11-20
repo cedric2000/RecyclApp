@@ -1,0 +1,58 @@
+
+    /*################################
+                ElementBar
+    ##################################*/   
+    
+.elementsBar{
+    -fx-background-color: #252525;
+}
+
+    /*################################
+          Titre de la bar d'element
+    ##################################*/         
+
+.tileName{
+    -fx-text-fill: white;
+    -fx-font-size: 30px; 
+}
+
+.tileimage{
+    -fx-cursor: hand;
+    -fx-translate-y : 15;
+}
+
+    /*################################
+                Element
+    ##################################*/          
+.element{
+    -fx-background-color: #353535;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+.element:hover{
+    -fx-background-color: #454545;
+    -fx-cursor: hand;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+
+.elementName{
+    -fx-text-fill: white ;
+    -fx-font-size: 15px; 
+    -fx-padding : 5px;
+}
+
+.elementImage{
+
+}
+
+.active{
+    -fx-background-color: #566163;
+}
+
+.active:hover{
+    -fx-background-color: #566163;
+}
+

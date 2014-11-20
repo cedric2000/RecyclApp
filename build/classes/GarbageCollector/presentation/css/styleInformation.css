@@ -1,0 +1,21 @@
+
+    /*################################
+            Information Bar
+    ##################################*/   
+    
+.informationStation{
+    -fx-background-color: #252525;
+}
+
+
+    /*################################
+          Titre de la bar d'info
+    ##################################*/         
+
+.tileInformation{
+    -fx-text-fill: white;
+    -fx-font-size: 25px; 
+    -fx-background-color: #353535;
+    -fx-text-alignment : center;
+    -fx-alignment : center;
+}

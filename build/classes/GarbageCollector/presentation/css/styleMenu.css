@@ -1,0 +1,60 @@
+
+    /*################################
+                Title
+    ##################################*/          
+.title{
+    -fx-text-fill: limegreen ;
+    -fx-font-size: 30px;
+    -fx-font-weight : bold;
+    -fx-label-padding: 15px ; 
+}
+
+.logo{
+    -fx-translate-y : 15;
+}
+
+
+.titleBox{
+    -fx-background-color: #2A3030;
+}
+
+    /*################################
+                ToolBar
+    ##################################*/   
+    
+.buttonIcon{
+    -fx-cursor: hand;
+    -fx-text-fill: white ;
+    -fx-background-color: #3D484A;
+}
+
+.buttonIcon:hover{
+    -fx-cursor: hand;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-color: #455052;
+}
+
+.buttonIcon:focused {
+    -fx-focus-color: transparent; 
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.active{
+    -fx-background-color: #566163;
+}
+
+.active:hover{
+    -fx-background-color: #566163;
+}
+
+.toolPanel{
+    -fx-background-color: #3D484A;
+}
+
+
+    /*################################
+            ToolPropertiesBar
+    ##################################*/   
+.toolPropertiesPanel{
+    -fx-background-color: #566163;
+}
